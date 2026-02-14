@@ -34,11 +34,9 @@ Campos:
 
 - Sobrescribir `toString()` en ambas clases.
 - El resultado debe ser legible, finito y estable.
-- `Pedido.toString()` puede mostrar información del cliente.
-- `Cliente.toString()` **NO** debe mostrar información de pedidos ni referencias a `Pedido`.
-- No debe existir recursión directa ni indirecta entre los `toString()`.
 
 ---
 
 ## Ejemplo de salida esperada
 
+Pedido{id=501, total=24999.90, cliente=Cliente{id=10, nombre='Juan Perez', email='juan@mail.com'}}
